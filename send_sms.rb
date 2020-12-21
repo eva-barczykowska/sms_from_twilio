@@ -2,8 +2,8 @@
 require 'twilio-ruby'
 
 # TODO remove hardcoding in the 2 below lines
-account_sid = 'AC4847f9ef53169ffe5d22949105436e36'
-auth_token = '749552fdb07f8b111b404a39fc94a666'
+account_sid = ''
+auth_token = '' #add in the env file
 client = Twilio::REST::Client.new(account_sid, auth_token)
 
 from = '[+][1]2059843305' # Your Twilio number
